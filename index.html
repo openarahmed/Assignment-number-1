@@ -81,19 +81,21 @@
             text-align: center;
         }
 /* fourth page */
-        .forth-page {
-            background-image: url(./new-year-new-me-main/images/watch.png);
-            
-            height: 300px;
-            width: 1200px;
-            background-repeat: no-repeat;
-            margin-left: 150px;
-            margin-top: 150px;
-            margin-bottom: 150px;
-            padding: 20px;
-
+        .forth-page-content {
+            background-image: linear-gradient(to left, rgba(57, 200, 0, 0), rgb(80, 0, 200));
+            padding: 30px;
+           
             
            
+        }
+        .forth-page{
+            background-image: url(./new-year-new-me-main/images/watch.png);
+            background-repeat: no-repeat;
+            height: 500px;
+            width: 1200px;
+            margin-left: 150px;
+            margin-top: 200px;
+            
         }
 /* black banner */
         .last-page-bg {
@@ -142,12 +144,51 @@
             color: rgb(255, 255, 255);
             border-radius: 05px;
         }
+        /* My hobby */
+        .hobby{
+            display: flex;
+            margin: 0 200px;
+            gap: 10px;
+        }
+        .iconhobby{
+            height: 100px;
+            width: 100px;
+        }
+        .iconhobby2{
+            height: 100px;
+            width: 100px;
+        }
+        .iconhobby3{
+            height: 100px;
+            width: 100px;
+        }
+        #hobbyheading{
+            text-align: center;
+            font-size: 30px;
+        }
+        .iconhobbytext{
+            background-color: aqua;
+            padding: 0 50px;
+            border-radius: 10px;
+            box-shadow: 0 15px 15px;
+        }
+        .iconhobbytext2{
+            background-color: rgba(183, 31, 31, 0.53);
+            padding: 0 50px;
+            border-radius: 10px;
+            box-shadow: 0 15px 15px;
+        }
+        
+        
+        
         
     </style>
 </head>
 
 <body>
     <section>
+       
+        </div>
         <div>
             <div class="first-page">
                 <h1>All Thinks Are <br>
@@ -209,8 +250,8 @@
         </div>
     </section>
     <section>
-        <div>
-            <div class="forth-page">
+        <div class="forth-page">
+            <div class="forth-page-content">
                 <div>
                 <h1 id="watch-title">Awlays keep a positive mindset</h1> <br>
                 <button id="call">Call Me</button>
@@ -218,6 +259,29 @@
             </div>
         </div>
     </section>
+    <section>
+        <div>
+            <h1 id="hobbyheading">My Love</h1>
+            <div class="hobby">
+                
+                <div class="iconhobbytext">
+                    <img class="iconhobby" src="./new-year-new-me-main/icon/photography-icon-png-2382.png" alt="">
+                    <h1>Photography</h1>
+                    
+                    <p>Hobbies are of different kinds and it is one that you would be loving and enjoying to do the most. Of all the hobbies that we see and hear, I love Photography the best. </p>
+
+                </div>
+                <div class="iconhobbytext2">
+                    <img class="iconhobby2" src="./new-year-new-me-main/icon/Photo eiditing 1.png" alt="">
+                    <h1>Photo Editing</h1>
+                    
+                    <p>Hobbies are of different kinds and it is one that you would be loving and enjoying to do the most. Of all the hobbies that we see and hear, I love Photography the best.</p>
+                </div>
+                
+        </div>
+    </section>
+    
+    
     <footer class="last-page-bg">
         <div class="last-page">
             <div>
