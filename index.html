@@ -9,10 +9,12 @@
     <style>
         /* Body Background */
         body {
-            background-image: url(./new-year-new-me-main/images/banner/banner3.png);
+            /* background-image: url(./new-year-new-me-main/images/banner/banner3.png);
             width: 1400px;
             height: 808px;
             background-repeat: no-repeat;
+            margin-left: ; */
+            
         }
 
         /* 1st-page */
@@ -178,8 +180,28 @@
             border-radius: 10px;
             box-shadow: 0 15px 15px;
         }
-        
-        
+        .hide{
+            display: none;
+        }
+        @media screen and (max-width: 500px) {
+            .second-page{
+                flex-direction:column;
+            }
+            .secondimg img{
+                
+                width: 350px;
+            }
+            body{
+                margin: 2px;
+            }
+            .second-page{
+                margin-left: 10px;
+            }
+            .second-p {
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+        }
         
         
     </style>
@@ -190,7 +212,7 @@
        
         </div>
         <div>
-            <div class="first-page">
+            <div class="first-page hide">
                 <h1>All Thinks Are <br>
                     Possible If You <br>
                     believe</h1>
@@ -202,7 +224,7 @@
     </section>
     <section class="second-page">
         <div>
-            <div>
+            <div class="secondimg">
                 <img src="./new-year-new-me-main/images/person.png" alt="">
 
             </div>
@@ -226,7 +248,7 @@
     </section>
     <section>
         <h1 id="my-plan">My plan</h1>
-        <div class="my-plan-icon">
+        <div class="my-plan-icon hide">
             <div>
                 <p><img src="./new-year-new-me-main/images/icons/web.png" alt=""></p>
                 <h1> Web Development</h1>
@@ -250,7 +272,7 @@
         </div>
     </section>
     <section>
-        <div class="forth-page">
+        <div class="forth-page hide">
             <div class="forth-page-content">
                 <div>
                 <h1 id="watch-title">Awlays keep a positive mindset</h1> <br>
@@ -259,7 +281,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="hide">
         <div>
             <h1 id="hobbyheading">My Love</h1>
             <div class="hobby">
@@ -282,7 +304,7 @@
     </section>
     
     
-    <footer class="last-page-bg">
+    <footer class="last-page-bg hide">
         <div class="last-page">
             <div>
                 <h1>Future</h1>
